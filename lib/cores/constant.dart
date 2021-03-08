@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class CoreConstant {
+class CoreConstantLoading {
   static double heightWidget = 70;
   static double sizeLoading = 42;
   static String pathLoadingGif = "assets/spinner_loading.gif";

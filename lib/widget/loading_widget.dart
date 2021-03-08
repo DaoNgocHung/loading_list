@@ -13,24 +13,24 @@ class _LoadingWidgetState extends State<LoadingWidget> {
   Widget build(BuildContext context) {
     widthScreen = MediaQuery.of(context).size.width;
     return Container(
-      height: CoreConstant.heightWidget,
+      height: CoreConstantLoading.heightWidget,
       width: widthScreen,
       decoration: BoxDecoration(
-        color: CoreConstant.colorSpace ?? Colors.white,
+        color: CoreConstantLoading.colorSpace ?? Colors.white,
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(
-            CoreConstant.pathLoadingGif,
-            height: CoreConstant.sizeLoading,
-            width: CoreConstant.sizeLoading,
+            CoreConstantLoading.pathLoadingGif,
+            height: CoreConstantLoading.sizeLoading,
+            width: CoreConstantLoading.sizeLoading,
             package: 'loading_list',
           ),
           Text(
             "Đang tải",
             style: TextStyle(
-              color: CoreConstant.colorText ?? Colors.black,
+              color: CoreConstantLoading.colorText ?? Colors.black,
             ),
           )
         ],

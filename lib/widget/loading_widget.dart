@@ -16,7 +16,7 @@ class _LoadingWidgetState extends State<LoadingWidget> {
       height: CoreConstantLoading.heightWidget,
       width: widthScreen,
       decoration: BoxDecoration(
-        color: CoreConstantLoading.colorSpace ?? Colors.white,
+        color: CoreConstantLoading.colorSpace ?? Colors.transparent,
       ),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
